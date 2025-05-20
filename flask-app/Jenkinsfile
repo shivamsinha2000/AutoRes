@@ -9,7 +9,7 @@ pipeline {
   stages {
     stage('Checkout') {
       steps {
-        git 'https://github.com/shivamsinha2000/AutoRes.git'
+        git url: 'https://github.com/shivamsinha2000/AutoRes.git', branch: 'main'
       }
     }
 
@@ -39,3 +39,7 @@ pipeline {
     }
   }
 }
+
+
+
+
