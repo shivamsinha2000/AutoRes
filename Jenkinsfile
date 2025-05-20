@@ -38,6 +38,7 @@ pipeline {
                 script {
                     bat 'kubectl apply -f flask-deployment.yaml'
                     bat 'kubectl apply -f flask-service.yaml'
+                    bat 'kubectl apply -f k8s/deployment.yaml'
                 }
             }
         }
