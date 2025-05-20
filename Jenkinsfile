@@ -36,8 +36,8 @@ pipeline {
         stage('Deploy to Kubernetes') {
             steps {
                 script {
-                    bat 'kubectl apply -f k8s/deployment.yaml'
-                    bat 'kubectl apply -f k8s/service.yaml'
+                    bat 'kubectl apply -f flask-deployment.yaml'
+                    bat 'kubectl apply -f flask-service.yaml'
                 }
             }
         }
