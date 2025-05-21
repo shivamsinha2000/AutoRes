@@ -1,5 +1,5 @@
-🧠 Project Title
-"AutoResQ: An Intelligent Disaster Recovery & Rollback Platform for Cloud-Native Deployments"
+🧠
+AutoResQ: An Intelligent Disaster Recovery & Rollback Platform for Cloud-Native Deployments
 
 🚀 Overview
 In modern cloud-native applications, continuous deployments and high availability are crucial. However, deployment of faulty updates or unexpected infrastructure failures (like EC2 crashes, AZ outages, or network partitions) can lead to significant downtime and data loss.
